@@ -10,7 +10,7 @@ s.author           = { "Smaato" => "viacheslav.leonov@smaato.com" }
 
 s.platform         = :ios, '8.0'
 s.requires_arc     = true
-s.source           = { :http => "https://s3.amazonaws.com/smaato-sdk-releases-internal/ios/smaato-ios-sdk-20.2.0-20190213.124707.zip" }
+s.source           = { :http => "https://s3.amazonaws.com/smaato-sdk-releases-internal/ios/smaato-ios-sdk-20.2.0-20190213.184707.zip" }
 s.default_subspecs = 'Full'
 
 s.subspec 'Full' do |full|
