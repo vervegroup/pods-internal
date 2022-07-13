@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://bitbucket.smaato.net/projects/NGSDK/repos/ng-sdk-om-js/browse"
   s.license      = 'MIT'
-  s.author       = 'siarhei.barmotska@smaato.com'
+  s.author       = 'amit.angarkar@smaato.com'
   s.source       = { :git => "ssh://git@bitbucket.smaato.net:7999/ngsdk/ng-sdk-om-js.git"}
   s.ios.deployment_target  = '8.0'
   s.source_files = 'ios/*.h'
