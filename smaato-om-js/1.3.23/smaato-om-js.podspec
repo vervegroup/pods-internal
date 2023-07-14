@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/vervegroup/projects/NGSDK/repos/ng-sdk-om-js/browse"
   s.license      = 'MIT'
   s.author       = 'Amit.angarkar@smaato.com'
-  s.source       = { :git => "https://github.com/vervegroup/ng-sdk-om-js.git"}
+  s.source       = { :git => "git@github.com:vervegroup/ng-sdk-om-js.git"}
   s.ios.deployment_target  = '11.0'
   s.source_files = 'ios/*.h'
 end
