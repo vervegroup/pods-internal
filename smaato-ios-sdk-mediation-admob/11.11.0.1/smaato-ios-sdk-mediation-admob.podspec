@@ -14,7 +14,7 @@ s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
 s.dependency "Google-Mobile-Ads-SDK", "11.11.0"
 
 s.subspec 'Adapters' do |adapters|
-    adapters.dependency "smaato-ios-sdk","22.9.3-beta.139"
+    adapters.dependency "smaato-ios-sdk","22.9.3-beta.143"
     adapters.dependency 'smaato-ios-sdk-mediation-admob/Banner'
     adapters.dependency 'smaato-ios-sdk-mediation-admob/Interstitial'
     adapters.dependency 'smaato-ios-sdk-mediation-admob/RewardedAds'
@@ -22,22 +22,22 @@ s.subspec 'Adapters' do |adapters|
 end
 
 s.subspec 'Banner' do |banner|
-    banner.dependency "smaato-ios-sdk/Banner", "22.9.3-beta.139"
+    banner.dependency "smaato-ios-sdk/Banner", "22.9.3-beta.143"
     banner.source_files = "SmaatoSDKAdapters/Banner/*.{h,m}"
   end
 
   s.subspec 'Interstitial' do |interstitial|
-    interstitial.dependency "smaato-ios-sdk/Interstitial", "22.9.3-beta.139"
+    interstitial.dependency "smaato-ios-sdk/Interstitial", "22.9.3-beta.143"
     interstitial.source_files = "SmaatoSDKAdapters/Interstitial/*.{h,m}"
   end
 
   s.subspec 'RewardedAds' do |rewardedads|
-    rewardedads.dependency "smaato-ios-sdk/RewardedAds", "22.9.3-beta.139"
+    rewardedads.dependency "smaato-ios-sdk/RewardedAds", "22.9.3-beta.143"
     rewardedads.source_files = "SmaatoSDKAdapters/RewardedVideo/*.{h,m}"
   end
 
   s.subspec 'Native' do |native|
-    native.dependency "smaato-ios-sdk/Native", "22.9.3-beta.139"
+    native.dependency "smaato-ios-sdk/Native", "22.9.3-beta.143"
     native.source_files = "SmaatoSDKAdapters/Native/*.{h,m}"
   end
 
