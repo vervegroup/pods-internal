@@ -11,7 +11,7 @@ s.source           = { :git => "https://github.com/vervegroup/smaato-ios-sdk-med
 s.default_subspecs = 'Adapters'
 s.static_framework = true
 s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
-s.dependency "AppLovinSDK", "13.0.0"
+s.dependency "AppLovinSDK", "13.3.1"
 
 s.subspec 'Adapters' do |adapters|
     adapters.dependency "smaato-ios-sdk", "23.0.0-beta.174"
