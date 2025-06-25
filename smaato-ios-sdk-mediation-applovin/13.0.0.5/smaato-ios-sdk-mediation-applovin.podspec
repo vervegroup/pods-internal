@@ -14,7 +14,7 @@ s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
 s.dependency "AppLovinSDK", "13.3.1"
 
 s.subspec 'Adapters' do |adapters|
-    adapters.dependency "smaato-ios-sdk", "23.0.0-beta.174"
+    adapters.dependency "smaato-ios-sdk", "23.0.0-beta.185"
     adapters.source_files = "SmaatoSDKAdapters/ApplovinWaterfall/*.{h,m}"
 end
 
